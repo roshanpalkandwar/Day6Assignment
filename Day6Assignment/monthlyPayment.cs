@@ -21,8 +21,7 @@ namespace Day6Assignment
             double Power = (1 - Math.Pow((1 + r), (-12*year)));
             double c = (LoanAmount * r/Power);
             
-            Console.WriteLine("Monthly Payment of " +
-                "" + c);
+            Console.WriteLine("Monthly Payment of  " + c);
         }
         
        
