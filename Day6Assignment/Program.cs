@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("welecome to fobonaci series ");
-            Console.WriteLine("chooes program\n1. fibonaci series\n2.find perfect number\n3.find prime number or not\n4.reverse a number\n5.stop watch program\n6.Find the Fewest Notes to be returned for Vending Machine\n7.Day of week\n8.monthly payment\n9.tempreture converision");
+            Console.WriteLine("chooes program\n1. fibonaci series\n2.find perfect number\n3.find prime number or not\n4.reverse a number\n5.stop watch program\n6.Find the Fewest Notes to be returned for Vending Machine\n7.Day of week\n8.monthly payment\n9.tempreture converision\n10.to binary");
             int opt=Convert.ToInt32(Console.ReadLine());
 
             switch(opt)
@@ -34,6 +34,9 @@
                     break;
                 case 9:
                     temprectureC.TempretureC();
+                    break;
+                case 10:
+                    toBinary.Tobinary();
                     break;
                     default:
                     break;
