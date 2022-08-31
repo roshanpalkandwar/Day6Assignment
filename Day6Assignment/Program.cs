@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("welecome to fobonaci series ");
-            Console.WriteLine("chooes program\n1. fibonaci series\n2.find perfect number\n3.find prime number or not");
+            Console.WriteLine("chooes program\n1. fibonaci series\n2.find perfect number\n3.find prime number or not\n4.reverse a number");
             int opt=Convert.ToInt32(Console.ReadLine());
 
             switch(opt)
@@ -16,6 +16,9 @@
                     break;
                 case 3:
                     primeNumber.PrimeNumber();
+                    break;
+                case 4:
+                    reverseNumber.ReverseNumber();
                     break;
             }
         }
